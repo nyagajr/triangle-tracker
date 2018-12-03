@@ -1,3 +1,15 @@
 h1{
   text-align: center;
+  color: #25418D;
+  font-family: 'digital-clock-font';
+}
+body{
+  background-color: #69458D;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto;
+}
+#best{
+  color: yellow;
+  font-family:'joker', sans-serif;
 }
