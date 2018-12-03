@@ -3,11 +3,17 @@ h1{
   color: #25418D;
   font-family: 'digital-clock-font';
 }
+
 body{
   background-color: #69458D;
   background-repeat: no-repeat;
   background-position: top;
   background-size: auto;
+}
+#one{
+  float: right;
+  color: RED;
+}
 }
 #best{
   color: yellow;
