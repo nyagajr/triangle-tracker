@@ -1,0 +1,15 @@
+bg-image {
+  background-image: url("triangle.png");
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  text-decoration-color: blue;
+}
