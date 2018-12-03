@@ -17,10 +17,10 @@ if (fstr === sstr && sstr === tstr && fstr  === tstr)
 }
 else if (fstr === sstr || sstr === tstr || fstr === tstr)
 {
-  alert("Isosceles")
+  alert("This is an Isosceles triangle")
 }
 else {
-  alert("scalene");
+  alert("this is definitely a scalene triangle");
 }
 }
 else
