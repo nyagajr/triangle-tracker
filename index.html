@@ -4,33 +4,30 @@
     <meta charset="utf-8">
     <title>triangle tracker</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script rel="stylesheet" src="javascript/script.js"></script>
   </head>
   <body background = "tri.jpg">
     <section id="one">
       <h4>Facts about a Triangle</h4>
-      <ul>
-        <strong><li>A triangle with three equal side is an equilateral triangle</li>
-        <li>A triangle with two equal side is an Isosceles triangle</li>
-        <li>A triangle with three unequal sides is a scalene triangle</li></strong>
-      </ul>
+        <ul>
+          <strong>
+            <li>A triangle with three equal side is an equilateral triangle</li>
+            <li>A triangle with two equal side is an Isosceles triangle</li>
+            <li>A triangle with three unequal sides is a scalene triangle</li>
+          </strong>
+        </ul>
     </section>
-
     <section id="two">
         <div>
           <h1> Triangle Tracker </h1>
         </div>
     </section>
-
     <section id="three">
         <h2 id='best'>Input Your Figures Here</h2>
-        <div class=""><input name="side A" value="" placeholder="side a"></div><br />
-        <div><input name="side B" value="" placeholder="side b"></div><br />
-        <div><input name="side B" value="" placeholder="side c"></div><br />
-        <div><input type="submit" value="Enter" onclick="msg()"> <input type="reset" value="Clear" onclick="msg()"></div>
+        <input type="number" name="sideA" value="0" id="num1" ><br />
+        <input type="number" name="sideB" value="0" id="num2"><br />
+        <input type="number" name="sideB" value="0" id="num3"><br />
+        <div><input type="button" value="Enter" onclick="msg()"> </div>
     </section>
-
-
-
-
   </body>
 </html>

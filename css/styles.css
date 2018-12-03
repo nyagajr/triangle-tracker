@@ -18,4 +18,8 @@ body{
 #best{
   color: yellow;
   font-family:'joker', sans-serif;
+
+}
+#two{
+  float: inherit;
 }

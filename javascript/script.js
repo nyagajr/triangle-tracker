@@ -1,26 +1,30 @@
-fSide = []
-sSide = []
-tSide = []
-fSide.push(prompt('enter the first side of the triangle '));
-sSide.push(prompt('enter the second side of the triangle '));
-tSide.push(prompt('enter the third side of the triangle '));
-var fstr = fSide.toString();
-var sstr = sSide.toString();
-var tstr = tSide.toString();
+var msg = function (){
 
+//fSide = []
+//sSide = []
+//tSide = []
+//fSide = document.getElementById("intro");
+//sSide.push(prompt('enter the second side of the triangle '));
+//tSide.push(prompt('enter the third side of the triangle '));
+var fstr = document.getElementById("num1").value;
+var sstr = document.getElementById("num2").value;
+var tstr = document.getElementById("num3").value;
+
+if (fstr > 0 && sstr > 0 && tstr > 0){
 if (fstr === sstr && sstr === tstr && fstr  === tstr)
 	{
 	alert('this is an equilateral triangle');
-	}
-else if(fstr+sstr <= tstr || fstr+tstr <= sstr || tstr+fstr <= sstr)
-  {
-  alert('this is not a triangle')
-  }
-else if (fstr === sstr || sstr === tstr || fstr  === tstr)
-	{
-	alert ('this is an isosceles triangle')
-	}
-else if (fstr !== sstr && sstr !== tstr && fstr  !== tstr)
-  {
-	alert('this is an scalene triangle')
-  }
+}
+else if (fstr === sstr || sstr === tstr || fstr === tstr)
+{
+  alert("Isosceles")
+}
+else {
+  alert("scalene");
+}
+}
+else
+{
+  alert("Triangle values can only be greater than 0");
+}
+};
